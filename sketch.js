@@ -15,6 +15,8 @@ var gray1,green1,green2,green3,pink1,pink2,pink3,pink4,pink5,blue1,blue2,blue3,b
 var shooter,slingy1;
 var gs = "play";
 var score = 0;
+
+
 var gim;
 
 //preloading images
