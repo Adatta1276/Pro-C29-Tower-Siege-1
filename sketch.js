@@ -174,7 +174,7 @@ text("TOWER - SIEGE_1 BY A.D",590,89 );
         Detect_Collision(shooter,lime6);
         Detect_Collision(shooter,lime7);
 
-        if(score<= 15) {
+        if(score = 15) {
           //fill("black");
           gim = createSprite(700,300,1400,600);
           gim.shapeColor = "black";
