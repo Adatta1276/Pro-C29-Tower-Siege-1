@@ -17,7 +17,7 @@ var shooter,slingy1;
 var score = 0;
 
 
-var gim;
+/*var gim;*/
 
 //preloading images
 function preload() 
@@ -174,19 +174,7 @@ text("TOWER - SIEGE_1 BY A.D",590,89 );
         Detect_Collision(shooter,lime6);
         Detect_Collision(shooter,lime7);
 
-        /*if(score = 15) {
-          //fill("black");
-          gim = createSprite(700,300,1400,600);
-          gim.shapeColor = "black";
-          gim.display();
-          textSize(50);
-          textFont("Arial");
-          fill("red");
-          text("GAME OVER ",535,130);
-          textSize(30);
-          text("You won, hooray for you !!",530,280);
-          text("Press CTRL+R / COMMAND+R to restart the game. ",400,455);
-        }*/
+        
  
 
 }
