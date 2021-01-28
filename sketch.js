@@ -13,7 +13,7 @@ var stand1,stand2;
 //blocks
 var gray1,green1,green2,green3,pink1,pink2,pink3,pink4,pink5,blue1,blue2,blue3,blue4,blue5,blue6,blue7,white1,red1,red2,red3,red4,red5,purple1,purple2,purple3,lime1,lime2,lime3,lime4,lime5;
 var shooter,slingy1;
-var gs = "play";
+//var gs = "play";
 var score = 0;
 
 
@@ -174,7 +174,7 @@ text("TOWER - SIEGE_1 BY A.D",590,89 );
         Detect_Collision(shooter,lime6);
         Detect_Collision(shooter,lime7);
 
-        if(score >= 15) {
+        if(score<= 15) {
           //fill("black");
           gim = createSprite(700,300,1400,600);
           gim.shapeColor = "black";
